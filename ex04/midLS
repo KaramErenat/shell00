@@ -1,0 +1,1 @@
+ ls -1tp --group-directories-first | grep -v '^\.' | sed 's@\(.*\)/\1/@' | paste -sd ', ' 
